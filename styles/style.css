@@ -41,6 +41,9 @@ html, body{
 .text_black{
   color: #111111;
 }
+.text_dark{
+  color: #202020;
+}
 .bg_black{
   background-color: #111111;
 }
@@ -56,6 +59,28 @@ html, body{
   cursor: pointer;
 }
 
+a{
+  text-decoration: none;
+}
+.title{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+
+}
+
+.linier_blue{
+  background: linear-gradient(to bottom, #DEF5FF 10px, #fff 100px);
+
+}
+.linier_orange{
+  background: linear-gradient(to bottom, #FFF4DC 10px, #fff 100px);
+
+}
+.linier_purple{
+  background: linear-gradient(to bottom, #F2E8FF 10px, #fff 100px);
+
+}
 /* Nav Styles  */
 
 header{
@@ -89,7 +114,6 @@ nav .nav_menu ul{
 }
 
 .nav_menu ul li a{
-  text-decoration: none;
   font-weight: 600;
 }
 
@@ -134,9 +158,42 @@ nav .nav_menu ul{
 
 
 
+/* Curriculum Section  */
 
+.curriculum_section{
+  background-image: url(../assets/bg.png);
+  padding-top: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.curriculum_card{
+  justify-content: space-between;
+}
 
+.curriculum_card .card{
+  width: 30%;
+  height: 400px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+  padding: 20px;
+  padding-top: 30px;
+  border-radius: 15px;
+  box-shadow: inset 0px 0px 28px 0.94px rgba(0, 0, 0, 0.05);
+  margin-top: 50px;
+}
+
+.card p{
+  color: #202020;
+  font-size: 0.9rem;
+  width: 95%;
+}
+.card a{
+  font-size: 0.9rem;
+}
 
 
 
@@ -209,6 +266,20 @@ nav .nav_menu ul{
     width: 100%;
   }
 
+
+  /* Curriculum Section  */
+
+  .title{
+    font-size: 2rem;
+  }
+
+  .curriculum_card{
+    flex-direction: column;
+    gap: 10px;
+  }
+  .curriculum_card .card{
+    width: 100%;
+  }
 
 }
 
