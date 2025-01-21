@@ -16,6 +16,7 @@ body {
 }
 
 /* common styles */
+
 .max-width {
   max-width: 80%;
   margin: 0 auto;
@@ -93,6 +94,7 @@ a {
 .purple_btn_bg {
   background-color: #5d58f0;
 }
+
 /* Nav Styles  */
 
 header {
@@ -160,10 +162,9 @@ p,
   width: 100%;
 }
 
-.banner_btn button:hover{
+.banner_btn button:hover {
   background-color: #2a2a2a;
 }
-
 
 /* Curriculum Section  */
 
@@ -212,6 +213,7 @@ p,
 }
 
 /* Stories Style  */
+
 .stories_section_container {
   background: url(../assets/bg.png),
     linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(255, 229, 184));
@@ -269,9 +271,8 @@ p,
 .stories_btn button {
   padding: 10px 35px;
 }
-.stories_btn button:hover{
+.stories_btn button:hover {
   background-color: #2a2a2a;
-
 }
 .story_btn button {
   border-radius: 20px;
@@ -363,10 +364,7 @@ footer {
   font-size: 1.3rem;
 }
 
-
-
 /* Marque Styles  */
-
 
 .marquee_section {
   margin: 0;
@@ -396,13 +394,7 @@ footer {
   }
 }
 
-
-
-
-
-
-
-
+/* Mobile Responsive Styles  */
 
 @media screen and (max-width: 576px) {
   /* nav styles  */
@@ -520,27 +512,27 @@ footer {
 
   /* Footer Styles  */
 
-
-  .footer_container{
+  .footer_container {
     flex-direction: column;
     gap: 40px;
   }
 
-  .footer_container>div{
+  .footer_container > div {
     width: 100%;
   }
-  .footer_about{
+  .footer_about {
     justify-content: start;
     align-items: start;
   }
-  .footer_about h3{
+  .footer_about h3 {
     margin-left: 0;
   }
-  footer{
+  footer {
     padding: 15px;
   }
-
 }
+
+/* Tab/Tablet Responsive Styles  */
 
 @media screen and (min-width: 577px) and (max-width: 1024px) {
   .nav_menu ul {
@@ -564,7 +556,7 @@ footer {
     margin-left: 0px;
   }
 
-  footer{
+  footer {
     padding: 15px;
   }
 }
