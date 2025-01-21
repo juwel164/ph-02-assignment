@@ -384,12 +384,12 @@ footer {
 }
 .marquee_content {
   display: inline-block;
-  animation: scroll-left 15s linear infinite;
+  animation: scroll-left 10s linear infinite;
 }
 
 @keyframes scroll-left {
   from {
-    transform: translateX(500%);
+    transform: translateX(250%);
   }
   to {
     transform: translateX(-100%);
