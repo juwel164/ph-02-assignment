@@ -75,12 +75,18 @@ a {
 
 .linier_blue {
   background: linear-gradient(to bottom, #def5ff 10px, #fff 100px);
+  border: 0.5px solid #def5ff;
 }
 .linier_orange {
   background: linear-gradient(to bottom, #fff4dc 10px, #fff 100px);
+  border: 0.5px solid #fff4dc;
+
+
 }
 .linier_purple {
   background: linear-gradient(to bottom, #f2e8ff 10px, #fff 100px);
+  border: 0.5px solid #f2e8ff;
+
 }
 
 .blue_btn_bg {
@@ -171,8 +177,7 @@ p,
 .curriculum_section {
   background-image: url(../assets/bg.png);
   padding-top: 50px;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .curriculum_card {
@@ -217,14 +222,11 @@ p,
 .stories_section_container {
   background: url(../assets/bg.png),
     linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(255, 229, 184));
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   padding-bottom: 50px;
 }
 .stories_section {
   margin-top: 80px;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .stories_card {
   display: grid;
@@ -458,8 +460,9 @@ footer {
     width: 100%;
     height: auto;
   }
+  
   .title {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 
   .curriculum_card {
@@ -543,6 +546,11 @@ footer {
   }
   .banner_content .banner_title {
     font-size: 1.8rem;
+  }
+
+  .stories_card{
+  grid-template-columns: repeat(1, 1fr);
+
   }
 
   .story_btn button {
